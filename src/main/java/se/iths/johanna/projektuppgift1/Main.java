@@ -12,7 +12,7 @@ public class Main {
         System.out.println("\n\n---\n");
 
         System.out.println("Metod 2 - Int-array\n");
-        int[] values = {3, 88, 49, 54, 85};
+        int[] values = {8, 88, 49, 54, 85};
         int maxValue = NumberTools.getMaxValue(values);
         System.out.println("Största heltalet i arrayen: ");
         System.out.println(maxValue);
