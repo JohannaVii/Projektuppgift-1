@@ -4,7 +4,7 @@ public class Main {
 
     // Main-metod - Här anropas alla metoder
     public static void main(String[] args) {
-        System.out.println("\nPROJEKTUPPGIFT: Metoder och arrayer\n");
+        System.out.println("\nPROJEKTUPPGIFT 1: Metoder och arrayer\n");
         System.out.println("Metod 1 - String-array\n");
         String[] text = {"Hello", "World", "!"};
         System.out.println("Utskriven array: ");
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Metod 4 - Två String-parametrar\n");
         //System.out.println("Full name: ");
         System.out.println("My name is Bond, ");
-        TextTools.printFullName("James", "Bond");
+        System.out.println(TextTools.printFullName("James", "Bond"));
         System.out.println("\n---\n");
     }
 }

@@ -10,7 +10,7 @@ public class TextTools {
     }
 
     // Metod 4: Skriver ut två String-parametrar med ett mellanslag
-    public static void printFullName(String firstName, String lastName) {
-        System.out.println(firstName + " " + lastName);
+    public static String printFullName(String firstName, String lastName) {
+        return firstName + " " + lastName;
     }
 }
